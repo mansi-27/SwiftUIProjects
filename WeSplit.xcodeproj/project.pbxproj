@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		539AD88A2593472C007A1035 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539AD8892593472C007A1035 /* WeSplitApp.swift */; };
-		539AD88C2593472C007A1035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539AD88B2593472C007A1035 /* ContentView.swift */; };
 		539AD88E2593472E007A1035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539AD88D2593472E007A1035 /* Assets.xcassets */; };
 		539AD8912593472E007A1035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539AD8902593472E007A1035 /* Preview Assets.xcassets */; };
+		53E77CA726576E65003DCCD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E77CA626576E65003DCCD7 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		539AD8862593472C007A1035 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539AD8892593472C007A1035 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		539AD88B2593472C007A1035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		539AD88D2593472E007A1035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539AD8902593472E007A1035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		539AD8922593472E007A1035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E77CA626576E65003DCCD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				539AD8892593472C007A1035 /* WeSplitApp.swift */,
-				539AD88B2593472C007A1035 /* ContentView.swift */,
 				539AD88D2593472E007A1035 /* Assets.xcassets */,
 				539AD8922593472E007A1035 /* Info.plist */,
 				539AD88F2593472E007A1035 /* Preview Content */,
+				53E77CA626576E65003DCCD7 /* ContentView.swift */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				539AD88C2593472C007A1035 /* ContentView.swift in Sources */,
+				53E77CA726576E65003DCCD7 /* ContentView.swift in Sources */,
 				539AD88A2593472C007A1035 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
